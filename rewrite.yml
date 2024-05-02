@@ -1,0 +1,10 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: it.univaq.spencerlab.openrewrite.recipe.AddJDKEventsAnnotationWrapper
+displayName: AddJDKEventsAnnotationWrapper
+description: Applies Recipe B.
+recipeList:
+  - it.univaq.spencerlab.openrewrite.recipe.AddJDKEventsAnnotation:
+    tags:
+      - jdk.G1*
+      - jdk.GC*
